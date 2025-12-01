@@ -10,6 +10,7 @@ resource "aws_vpc" "my-vpc" {
   tags = {
     Name = "${local.developer_name}-VPC"
     env  = "prod_env"
+    branch = "mariem"
   }
 }
 
